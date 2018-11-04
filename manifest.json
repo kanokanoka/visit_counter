@@ -1,2 +1,11 @@
 {
+	"name" : "Visit Counter",
+	"version" : "1.0",
+	"description" : "this is visit counter.",
+	"permissions" : ["storage"],
+	"background" : {
+		"scripts" : ["background.js"],
+		"persistent" : false
+	},
+	"manifest_version" : 2
 }
